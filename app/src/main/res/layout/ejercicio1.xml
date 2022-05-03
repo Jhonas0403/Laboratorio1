@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/ejercicio1_scene">
+
+    <TextView
+        android:id="@+id/view"
+        tools:ignore="RtlCompat"
+        android:layout_width="63dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="28dp"
+        android:background="#4CAF50"
+        android:gravity="center_vertical"
+        android:text="A1"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <TextView
+        android:id="@+id/view6"
+        android:layout_width="63dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="36dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="A2"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.359"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="RtlCompat" />
+</androidx.constraintlayout.motion.widget.MotionLayout>

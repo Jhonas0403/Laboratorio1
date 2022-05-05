@@ -7,5 +7,6 @@
     tools:context=".MainActivity">
     <include layout="@layout/ejercicio1"/>
     <include layout="@layout/ejercio2"/>
+    <include layout="@layout/ejercicio3"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
